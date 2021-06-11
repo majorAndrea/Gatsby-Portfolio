@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
@@ -26,7 +27,7 @@ const About = () => {
     <section id="about">
       <Container>
         <Title title="About Me" />
-        <Row className="about-wrapper">
+        <Row className="about-wrapper pb-5">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
@@ -64,6 +65,56 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
+        <div className="pt-5 pb-5">
+          <Title title="Main Skills" />
+          <Row className="about-wrapper">
+            <Col md={12} sm={12}>
+              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+                <div className="about-wrapper__info d-flex flex-column flex-sm-row justify-content-around">
+                  <FontAwesomeIcon
+                    icon={['fab', 'html5']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <FontAwesomeIcon
+                    icon={['fab', 'css3-alt']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <FontAwesomeIcon
+                    icon={['fab', 'sass']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <FontAwesomeIcon
+                    icon={['fab', 'bootstrap']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <FontAwesomeIcon
+                    icon={['fab', 'js']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <FontAwesomeIcon
+                    icon={['fab', 'react']}
+                    color="white"
+                    size="3x"
+                    className="mb-3 mb-sm-0"
+                  />
+                  <span style={{ fontSize: '2.25em' }}>ExpressJS</span>
+                  <span style={{ fontSize: '2.25em' }}>MongoDB</span>
+                  <span style={{ fontSize: '2.25em' }}>SQL</span>
+                </div>
+              </Fade>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   );
