@@ -70,46 +70,55 @@ const About = () => {
           <Row className="about-wrapper">
             <Col md={12} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                <div className="about-wrapper__info d-flex flex-column flex-sm-row justify-content-around">
+                <div className="about-wrapper__info d-flex flex-column flex-md-row justify-content-around">
                   <FontAwesomeIcon
                     icon={['fab', 'html5']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
                   <FontAwesomeIcon
                     icon={['fab', 'css3-alt']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
                   <FontAwesomeIcon
                     icon={['fab', 'sass']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
                   <FontAwesomeIcon
                     icon={['fab', 'bootstrap']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
                   <FontAwesomeIcon
                     icon={['fab', 'js']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
                   <FontAwesomeIcon
                     icon={['fab', 'react']}
                     color="white"
                     size="3x"
-                    className="mb-3 mb-sm-0"
+                    className="mb-4 mb-md-0"
                   />
-                  <span style={{ fontSize: '2.25em' }}>ExpressJS</span>
-                  <span style={{ fontSize: '2.25em' }}>MongoDB</span>
-                  <span style={{ fontSize: '2.25em' }}>SQL</span>
+                  <span style={{ fontSize: '2.25em' }} className="mb-3 mb-md-0">
+                    ExpressJS
+                  </span>
+                  <span style={{ fontSize: '2.25em' }} className="mb-3 mb-md-0">
+                    MongoDB
+                  </span>
+                  <span style={{ fontSize: '2.25em' }} className="mb-3 mb-md-0">
+                    Firebase
+                  </span>
+                  <span style={{ fontSize: '2.25em' }} className="mb-3 mb-md-0">
+                    MySQL
+                  </span>
                 </div>
               </Fade>
             </Col>
