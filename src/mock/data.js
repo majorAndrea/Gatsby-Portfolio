@@ -24,7 +24,7 @@ export const aboutData = {
     'I have one year of experience in back-end development and more than one year of experience in front-end development. I studied on Treehouse, Linkedin Learning, and some of the best courses on Udemy and I am a Zero To Mastery student. I have taken the famous CS50 course several times and also completed some of their problem sets.',
   paragraphThree:
     "I'm really passionate about this world of web development and I'm always hungry for learning new things. My strongest skill is learning by doing, I can grasp new concepts very quickly while working on my projects, and I spend a lot of time doing practice.",
-  resume: 'https://www.docdroid.net/EzhVOuQ/andrea-marloni-pdf', // if no resume, the button will not show up
+  resume: 'https://www.docdroid.net/s3SfaFW/andrea-marloni-pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
