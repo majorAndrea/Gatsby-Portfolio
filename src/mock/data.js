@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I have one year of experience in back-end development and more than one year of experience in front-end development. I studied on Treehouse, Linkedin Learning, and some of the best courses on Udemy and I am a Zero To Mastery student. I have taken the famous CS50 course several times and also completed some of their problem sets.',
   paragraphThree:
-    "I'm really passionate about this world of web development and I'm always hungry for learning new things. My strongest skill is learning by doing, I can grasp new concepts very quickly while working on my projects, and I spend a lot of time doing practice.",
+    "I'm really passionate about this world of web development and I'm always hungry for learning new things. My strongest skill is learning by doing, I can grasp new concepts very quickly while working on projects, and I spend a lot of time doing practice.",
   resume: 'https://www.docdroid.net/s3SfaFW/andrea-marloni-pdf', // if no resume, the button will not show up
 };
 
@@ -43,7 +43,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project_2.jpg',
     title: 'E-Commerce',
-    info: 'In this e-commerce WebApp users have two ways of doing the login, via Google or normal form registration. Then users can choose some product and also review them with a five stars system, add them to the cart and then review the order on a checkout page, and then completing the order via the PayPal payment method. Once the payment is successfully completed, the user will be redirected to a checkout confirmation page with the order summary and some other information. And the order details are stored on firestore db.',
+    info: 'In this e-commerce WebApp users have two ways of doing the login, via Google or normal form registration. Then users can choose some product and also review them with a five stars system, add them to the cart and then review the order on a checkout page, after completing all the steps for the shipment details. And then completing the order via the PayPal payment method. Once the payment is successfully completed, the user will be redirected to a checkout confirmation page with the order summary and some other information. And the order details are stored on firestore db.',
     info2: 'This Project is almost completed.',
     url: 'https://am-ecommerce.netlify.app',
     repo: 'https://github.com/majorAndrea/E-Commerce', // if no repo, the button will not show up
