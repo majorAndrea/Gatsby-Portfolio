@@ -24,7 +24,7 @@ export const aboutData = {
     'I have one year of experience in back-end development and more than one year of experience in front-end development. I studied on Treehouse, Linkedin Learning, and some of the best courses on Udemy and I am a Zero To Mastery student. I have taken the famous CS50 course several times and also completed some of their problem sets.',
   paragraphThree:
     "I'm really passionate about this world of web development and I'm always hungry for learning new things. My strongest skill is learning by doing, I can grasp new concepts very quickly while working on projects, and I spend a lot of time doing practice.",
-  resume: 'https://www.docdroid.net/s3SfaFW/andrea-marloni-pdf', // if no resume, the button will not show up
+  resume: 'https://www.docdroid.net/lCEQOnn/andrea-marloni-pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -48,6 +48,15 @@ export const projectsData = [
     url: 'https://am-ecommerce.netlify.app',
     repo: 'https://github.com/majorAndrea/E-Commerce', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project_3.jpg',
+    title: 'Landing Page',
+    info: 'This is the first website I ever made, with only javascript, html5, and CSS. Is a pretty static website so there is not much functionality (and this is my first ever project after all). And I tried to make it very accessible.',
+    info2: 'Developed 3-4 years ago.',
+    url: 'https://majorandrea.github.io/landing-page/',
+    repo: 'https://github.com/majorAndrea/landing-page', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -68,7 +77,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/andrea-marloni-18815320b/',
+      url: 'https://www.linkedin.com/in/andrea-marloni/',
     },
     {
       id: nanoid(),
