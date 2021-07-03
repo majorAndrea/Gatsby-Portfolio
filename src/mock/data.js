@@ -33,7 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project_1.jpg',
     title: 'Blog Demo',
-    info: 'This is my first full-stack web dev project.In this blog, users can publish their own posts and users can comment on posts. Once the post is created, the owner can then change everything: image, title, text, and can delete the post. Posts can optionally have a "Location" field and if the user writes some real-world place (like "New York") then on the Post show page will appear a mini-map displaying the geolocated position. Users have their own profiles and dashboard and they can edit their biography, avatar image, birth date, and username.',
+    info: 'This is my first full-stack web dev project.In this blog, users can publish their own posts and users can comment on posts. Once the post is created, the owner can then change everything: image, title, text, and can delete the post. Posts can optionally have a "Location" field and if the user writes some real-world place (like "New York") then on the Post show page will appear a mini-map displaying the geolocated position. Users have their own profiles and dashboard and they can edit their biography, avatar image, birth date, and username. And users can change their password if forgotten it via email API.',
     info2:
       'NOTE: Check the Github repository for more information about the Tech used in this project and to have testing credentials to test the WebApp.',
     url: 'https://am-blog-demo.herokuapp.com/',
