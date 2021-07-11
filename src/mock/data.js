@@ -54,7 +54,7 @@ export const projectsData = [
     title: 'Landing Page',
     info: 'This is the first website I ever made, with only javascript, html5, and CSS. Is a pretty static website so there is not much functionality (and this is my first ever project after all). And I tried to make it very accessible.',
     info2: 'Developed 3-4 years ago.',
-    url: 'https://majorandrea.github.io/landing-page/',
+    url: 'https://majorandrea.github.io/Landing-Page/',
     repo: 'https://github.com/majorAndrea/landing-page', // if no repo, the button will not show up
   },
 ];
