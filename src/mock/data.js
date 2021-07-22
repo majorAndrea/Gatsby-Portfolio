@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Andrea Marloni', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
 
