@@ -44,9 +44,18 @@ export const projectsData = [
     img: 'project_2.jpg',
     title: 'E-Commerce',
     info: 'In this e-commerce WebApp users have two ways of doing the login, via Google or normal form registration. Then users can choose some product and also review them with a five stars system, add them to the cart and then review the order on a checkout page, after completing all the steps for the shipment details. And then completing the order via the PayPal payment method. Once the payment is successfully completed, the user will be redirected to a checkout confirmation page with the order summary and some other information. And the order details are stored on firestore db.',
-    info2: 'This Project is almost completed.',
+    info2: '',
     url: 'https://am-ecommerce.netlify.app',
     repo: 'https://github.com/majorAndrea/E-Commerce', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project_4.jpg',
+    title: 'Natours',
+    info: 'This is one of the projects I made by following the Advanced CSS and SASS course on Udemy. I have learned some very useful tricks about both CSS and SASS by working on this project, and I have added some tweaks and improvements on my own.',
+    info2: '',
+    url: 'https://majorandrea.github.io/Natours/',
+    repo: 'https://github.com/majorAndrea/Natours', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
