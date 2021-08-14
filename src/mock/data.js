@@ -52,8 +52,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project_4.jpg',
     title: 'Natours',
-    info: 'This is one of the projects I made by following the Advanced CSS and SASS course on Udemy. I have learned some very useful tricks about both CSS and SASS by working on this project, and I have added some tweaks and improvements on my own.',
-    info2: '',
+    info: 'A modern and responsive landing page for a fictional company called Natours. Built only with HTML, SASS, and following the BEM methodology for class names.',
+    info2: 'This is one of the projects I made by following the Advanced CSS and SASS course on Udemy. I have learned some very useful tricks about both CSS and SASS by working on this project, and I have added some tweaks and improvements on my own.',
     url: 'https://majorandrea.github.io/Natours/',
     repo: 'https://github.com/majorAndrea/Natours', // if no repo, the button will not show up
   },
