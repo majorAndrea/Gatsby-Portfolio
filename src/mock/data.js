@@ -37,6 +37,7 @@ export const projectsData = [
       'Full-stack social network PWA. Still in development, built with React & Redux, Typescript, MapBox API, and Framer Motion on the front-end and ExpressJS, MongoDB, JWTs, and Jest on the back-end, SocketIO (and much more).',
     url: 'https://esc-earth-social.herokuapp.com',
     repo: '',
+    extraUrl: 'https://bit.ly/3OaD1hF',
   },
   {
     id: nanoid(),

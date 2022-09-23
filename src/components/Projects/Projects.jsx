@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, extraUrl } = project;
 
             return (
               <Row key={id}>
@@ -66,6 +66,17 @@ const Projects = () => {
                           href={repo}
                         >
                           Source Code
+                        </a>
+                      )}
+
+                      {extraUrl && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
+                          href={extraUrl}
+                        >
+                          See Acclaim Post
                         </a>
                       )}
                     </div>
