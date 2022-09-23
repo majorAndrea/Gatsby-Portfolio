@@ -18,17 +18,26 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne:
-    "I am a web developer and I'm proficient with both back-end and front-end technologies.",
+  paragraphOne: 'I am a Full-Stack Web Developer',
   paragraphTwo:
-    'I have one year of experience in back-end development and more than one year of experience in front-end development. I studied on Treehouse, Linkedin Learning, and some of the best courses on Udemy and I am a Zero To Mastery student. I have taken the famous CS50 course several times and also completed some of their problem sets.',
+    'I have three year of experience with the MERN Stack, and some other technologies. I studied on Treehouse, Linkedin Learning, and some of the best courses on Udemy and I am a Zero To Mastery student. I have taken the famous CS50 course several times and also completed some of their problem sets.',
   paragraphThree:
     "I'm really passionate about this world of web development and I'm always hungry for learning new things. My strongest skill is learning by doing, I can grasp new concepts very quickly while working on projects, and I spend a lot of time doing practice.",
-  resume: 'https://docdro.id/gBN6MT0', // if no resume, the button will not show up
+  resume: 'https://www.docdroid.net/PsA5Ya8/andrea-marloni-pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project_5.jpg',
+    title: 'Earth Social PWA',
+    info: 'A full-fledged social network based on geolocation of users posts',
+    info2:
+      'Full-stack social network PWA. Still in development, built with React & Redux, Typescript, MapBox API, and Framer Motion on the front-end and ExpressJS, MongoDB, JWTs, and Jest on the back-end, SocketIO (and much more).',
+    url: 'https://esc-earth-social.herokuapp.com',
+    repo: '',
+  },
   {
     id: nanoid(),
     img: 'project_1.jpg',
@@ -53,7 +62,8 @@ export const projectsData = [
     img: 'project_4.jpg',
     title: 'Natours',
     info: 'A modern and responsive landing page for a fictional company called Natours. Built only with HTML, SASS, and following the BEM methodology for class names.',
-    info2: 'This is one of the projects I made by following the Advanced CSS and SASS course on Udemy. I have learned some very useful tricks about both CSS and SASS by working on this project, and I have added some tweaks and improvements on my own.',
+    info2:
+      'This is one of the projects I made by following the Advanced CSS and SASS course on Udemy. I have learned some very useful tricks about both CSS and SASS by working on this project, and I have added some tweaks and improvements on my own.',
     url: 'https://majorandrea.github.io/Natours/',
     repo: 'https://github.com/majorAndrea/Natours', // if no repo, the button will not show up
   },
