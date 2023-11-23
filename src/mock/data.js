@@ -35,7 +35,7 @@ export const projectsData = [
     info: 'A full-fledged social network based on geolocation of users posts',
     info2:
       'Full-stack social network PWA. Still in development, built with React & Redux, Typescript, MapBox API, and Framer Motion on the front-end and ExpressJS, MongoDB, JWTs, and Jest on the back-end, SocketIO (and much more).',
-    url: 'https://esc-earth-social.herokuapp.com',
+    url: '',
     repo: '',
     extraUrl: 'https://bit.ly/3OaD1hF',
   },
@@ -46,7 +46,7 @@ export const projectsData = [
     info: 'This is my first full-stack web dev project.In this blog, users can publish their own posts and users can comment on posts. Once the post is created, the owner can then change everything: image, title, text, and can delete the post. Posts can optionally have a "Location" field and if the user writes some real-world place (like "New York") then on the Post show page will appear a mini-map displaying the geolocated position. Users have their own profiles and dashboard and they can edit their biography, avatar image, birth date, and username. And users can change their password if forgotten it via email API.',
     info2:
       'NOTE: Check the Github repository for more information about the Tech used in this project and to have testing credentials to test the WebApp.',
-    url: 'https://am-blog-demo.herokuapp.com/',
+    url: 'https://blog-demo-1t68.onrender.com',
     repo: 'https://github.com/majorAndrea/Blog-Demo', // if no repo, the button will not show up
   },
   {
